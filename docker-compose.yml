@@ -1,0 +1,7 @@
+version: "3"
+services: 
+  node-app:
+    image: juancarranza1804/node-app:v1
+    ports: 
+      - "8181:8080"
+
